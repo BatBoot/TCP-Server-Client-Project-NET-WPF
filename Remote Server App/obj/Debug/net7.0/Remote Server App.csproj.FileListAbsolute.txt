@@ -1,0 +1,15 @@
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.csproj.AssemblyReference.cache
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.AssemblyInfoInputs.cache
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.AssemblyInfo.cs
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.csproj.CoreCompileInputs.cache
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\bin\Debug\net7.0\Remote Server App.exe
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\bin\Debug\net7.0\Remote Server App.deps.json
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\bin\Debug\net7.0\Remote Server App.runtimeconfig.json
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\bin\Debug\net7.0\Remote Server App.dll
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\bin\Debug\net7.0\Remote Server App.pdb
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.dll
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\refint\Remote Server App.dll
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.pdb
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\Remote Server App.genruntimeconfig.cache
+C:\Users\IliesPC\Desktop\University Homework\Real World Interactions\Final Assessment\Remote Server App\obj\Debug\net7.0\ref\Remote Server App.dll
