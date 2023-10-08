@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\asase\\.nuget\\packages\\": {},
@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Portofolio\\Final Assessment\\Remote Server App\\Remote Server App.csproj",
-      "projectName": "Remote Server App",
-      "projectPath": "D:\\Portofolio\\Final Assessment\\Remote Server App\\Remote Server App.csproj",
+      "projectUniqueName": "D:\\Portofolio\\Final Assessment\\Tic-Tac-Toe Multiplayer\\Tic-Tac-Toe Multiplayer.csproj",
+      "projectName": "Tic-Tac-Toe Multiplayer",
+      "projectPath": "D:\\Portofolio\\Final Assessment\\Tic-Tac-Toe Multiplayer\\Tic-Tac-Toe Multiplayer.csproj",
       "packagesPath": "C:\\Users\\asase\\.nuget\\packages\\",
-      "outputPath": "D:\\Portofolio\\Final Assessment\\Remote Server App\\obj\\",
+      "outputPath": "D:\\Portofolio\\Final Assessment\\Tic-Tac-Toe Multiplayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -29,7 +29,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net7.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -37,8 +37,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "projectReferences": {}
         }
       },
@@ -49,8 +49,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -65,6 +65,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
