@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tic-Tac-Toe Multiplayer", "Tic-Tac-Toe Multiplayer.csproj", "{44341CF8-D505-4B9E-915D-73E6E2CCE87F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remote Server App", "..\Remote Server App\Remote Server App.csproj", "{8DBF0239-56DC-43CB-9F18-A6452372EA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44341CF8-D505-4B9E-915D-73E6E2CCE87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44341CF8-D505-4B9E-915D-73E6E2CCE87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44341CF8-D505-4B9E-915D-73E6E2CCE87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44341CF8-D505-4B9E-915D-73E6E2CCE87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBF0239-56DC-43CB-9F18-A6452372EA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBF0239-56DC-43CB-9F18-A6452372EA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBF0239-56DC-43CB-9F18-A6452372EA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBF0239-56DC-43CB-9F18-A6452372EA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {962B7651-9C98-452F-AF44-A4894CFFAC03}
+	EndGlobalSection
+EndGlobal
