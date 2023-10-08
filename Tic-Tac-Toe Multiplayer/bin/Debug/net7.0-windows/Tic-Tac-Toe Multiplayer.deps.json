@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Tic-Tac-Toe Multiplayer/1.0.0": {
+        "dependencies": {
+          "Client": "1.0.0.0"
+        },
+        "runtime": {
+          "Tic-Tac-Toe Multiplayer.dll": {}
+        }
+      },
+      "Client/1.0.0.0": {
+        "runtime": {
+          "Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tic-Tac-Toe Multiplayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Client/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

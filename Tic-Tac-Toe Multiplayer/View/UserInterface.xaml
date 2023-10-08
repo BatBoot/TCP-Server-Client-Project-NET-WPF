@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="Tic_Tac_Toe_Multiplayer.View.UserInterface"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Tic_Tac_Toe_Multiplayer.View"
+             xmlns:vm="clr-namespace:Tic_Tac_Toe_Multiplayer.ViewModels"
+             d:DataContext="{d:DesignInstance Type=vm:MainWindowViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="600">
+    <Grid>
+        <Label HorizontalAlignment="Left" Content="{Binding PlayerWinCount.Value}" VerticalAlignment="Top" Margin="190,74,0,0" />
+        <Label Margin="520,74,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Content="{Binding OpponentWinCount.Value}"/>
+        <Label x:Name="Player_X" Margin="40,74,0,471" Content="{Binding PlayerLabel}" HorizontalAlignment="Left" Width ="auto"/>
+        <Label x:Name="Player_O" Margin="365,74,0,471" Content="{Binding OpponentLabel}" HorizontalAlignment="Left" Width ="auto"/>
+
+        <Grid x:Name="Table"  Margin="55,169,40,0" Height="391" VerticalAlignment="Top" IsEnabled="{Binding UnlockTable.Value, Mode=OneWay}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="_0_0" Grid.Column="0" Grid.Row="0" Content="{Binding GetTableInfo[0][0].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_0_0}" IsEnabled="{Binding UnlockButton[0][0].Value, Mode=TwoWay}"/>
+            <Button x:Name="_0_1" Grid.Column="1" Grid.Row="0" Content="{Binding GetTableInfo[0][1].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_0_1}" IsEnabled="{Binding UnlockButton[0][1].Value, Mode=TwoWay}"/>
+            <Button x:Name="_0_2" Grid.Column="2" Grid.Row="0" Content="{Binding GetTableInfo[0][2].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_0_2}" IsEnabled="{Binding UnlockButton[0][2].Value, Mode=TwoWay}"/>
+            <Button x:Name="_1_0" Grid.Column="0" Grid.Row="1" Content="{Binding GetTableInfo[1][0].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_1_0}" IsEnabled="{Binding UnlockButton[1][0].Value, Mode=TwoWay}"/>
+            <Button x:Name="_1_1" Grid.Column="1" Grid.Row="1" Content="{Binding GetTableInfo[1][1].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_1_1}" IsEnabled="{Binding UnlockButton[1][1].Value, Mode=TwoWay}"/>
+            <Button x:Name="_1_2" Grid.Column="2" Grid.Row="1" Content="{Binding GetTableInfo[1][2].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_1_2}" IsEnabled="{Binding UnlockButton[1][2].Value, Mode=TwoWay}"/>
+            <Button x:Name="_2_0" Grid.Column="0" Grid.Row="2" Content="{Binding GetTableInfo[2][0].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_2_0}" IsEnabled="{Binding UnlockButton[2][0].Value, Mode=TwoWay}"/>
+            <Button x:Name="_2_1" Grid.Column="1" Grid.Row="2" Content="{Binding GetTableInfo[2][1].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_2_1}" IsEnabled="{Binding UnlockButton[2][1].Value, Mode=TwoWay}"/>
+            <Button x:Name="_2_2" Grid.Column="2" Grid.Row="2" Content="{Binding GetTableInfo[2][2].Value}" Command="{Binding MakeMove}" CommandParameter="{Binding ElementName=_2_2}" IsEnabled="{Binding UnlockButton[2][2].Value, Mode=TwoWay}"/>
+        </Grid>
+
+        <Label x:Name="Turn_Count"  Margin="164,565,149,100" Content="{Binding DisplayTurnCount.Value}" Width ="auto" HorizontalContentAlignment="Center"/>
+        <Label x:Name="Game_Status" Margin="0,615,0,55" Content="{Binding DisplayServerStatus.Value}" Width="auto" HorizontalContentAlignment="Center"/>
+
+
+
+    </Grid>
+</UserControl>
